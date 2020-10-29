@@ -1,0 +1,40 @@
+h1{
+  color: grey;
+}
+
+img{
+  width: 200px;
+}
+
+body{
+  background: #1AF1BA;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+  background: #1AF1BA ;
+  padding: 16px;
+}
+
+header{
+  background: #1AF1BA ;
+  padding: 16px;
+}
+
+header a{
+  background: #75F11A ;
+  color: blue;
+  width: 50px;
+  text-decoration: none;
+}
+
+.main-content{
+  flex-grow: 1;
+}
